@@ -298,19 +298,19 @@ MonoBehaviour:
   _steps:
   - Active: 1
     MidiNotePitch: 60
-    Duration: 0.1
+    Duration: 0.10000000149011612
   - Active: 0
     MidiNotePitch: 67
-    Duration: 0.44
+    Duration: 0.4399999976158142
   - Active: 0
     MidiNotePitch: 72
-    Duration: 0.32
+    Duration: 0.3199999928474426
   - Active: 0
     MidiNotePitch: 48
-    Duration: 0.19
+    Duration: 0.1899999976158142
   - Active: 0
     MidiNotePitch: 60
-    Duration: 0.34
+    Duration: 0.3400000035762787
   muteSequence: 0
 --- !u!4 &334594406
 Transform:
@@ -1309,7 +1309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3caf59097bb4744f5b6b24bceddb8b73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _tempo: 200
+  _tempo: 104
   _subdivisions: 4
 --- !u!4 &1733021798
 Transform:

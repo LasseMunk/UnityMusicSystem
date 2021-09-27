@@ -5,8 +5,6 @@ using UnityEditor;
 [CustomEditor(typeof(StepSequencer))]
 public class StepSequencerEditor : Editor
 {
-  int _labelWidth = 60;
-
   public override void OnInspectorGUI()
   {
 
@@ -23,9 +21,12 @@ public class StepSequencerEditor : Editor
 
     // Set number of steps in sequence
     int numSteps = EditorGUILayout.IntSlider("# steps", steps.Count, 1, 32);
+    // Debug.Log(_numSteps);
+
 
     // Add or remove steps based on the above slider's value
-    while (numSteps < steps.Count)
+
+    while (numSteps > steps.Count)
     {
       steps.Add(new StepSequencer.Step());
     }
